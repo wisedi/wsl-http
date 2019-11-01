@@ -1,0 +1,31 @@
+{
+  "name": "@wisedi/wsl-http",
+  "version": "0.1.0",
+  "description": "HTTP module for WiseDI Standard Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "docs": "typedoc",
+    "lint": "tslint -p .",
+    "test": "mocha -r ts-node/register test/**/*.test.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "@wisedi",
+    "wsl",
+    "http"
+  ],
+  "author": "Juan Gamonal H <juangamonalh@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.4"
+  },
+  "repository": "github:wisedi/wsl-http"
+}
